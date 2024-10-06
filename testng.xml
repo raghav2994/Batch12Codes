@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Page Demo" parallel="methods" thread-count="2">
+    <test name="Test to be executed on Chrome Browser">
+<!--        <parameter name="Username" value="akhiljda@gmail.com"></parameter>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="Raghav"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="org.batch12.pomtest.DemoEverTest">
+            </class>
+            <class name="org.batch12.DataProviderConcept"/>
+
+        </classes>
+    </test>
+
+<!--    <test name="Test to be executed on Firefox Browser">-->
+<!--&lt;!&ndash;        <parameter name="browserName" value="firefox"></parameter>&ndash;&gt;-->
+<!--&lt;!&ndash;        <groups>&ndash;&gt;-->
+<!--&lt;!&ndash;            <run>&ndash;&gt;-->
+<!--&lt;!&ndash;                <include name="Raghav"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </run>&ndash;&gt;-->
+<!--&lt;!&ndash;        </groups>&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="org.batch12.AnnotationExampleScenario">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
